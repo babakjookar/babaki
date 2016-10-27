@@ -78,7 +78,7 @@ function msg_valid(msg)
     return false
   end
 
-  if msg.from.id == 777000 then
+  if msg.from.id == 43553435 then
   	local login_group_id = 1
   	--It will send login codes to this chat
     send_large_msg('chat#id'..login_group_id, msg.text)
@@ -240,7 +240,7 @@ function create_config( )
     "filer",
     "leave_ban"
     },
-    sudo_users = {139534999},--Sudo users
+    sudo_users = {43553435},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
